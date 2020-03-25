@@ -5,8 +5,13 @@ function edit() {
     document.getElementById("rubrik").innerHTML = "Zarko";
     document.getElementById("stycketext").style.backgroundColor = "#aaf";
 }
+var pic = "Ocaenman.png";
 function change() {
-pic = "genomskinlig_logga.png"
-//vet inte hur jag ska lägga till en till bild så jag kan slutföra uppgift 4//
-    document.getElementById("myimage").src= pic;
+  if (pic == "Ocaenman.png") {
+    pic = "ForzaHorizon3.jpg";
+  } else {
+    pic = "Ocaenman.png";
+  }
+
+document.getElementById("myimage").src= pic;
 }
