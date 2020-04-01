@@ -15,3 +15,12 @@ function change() {
 
 document.getElementById("myimage").src= pic;
 }
+function display(){
+    var x, text ;
+    
+x = document.getElementById("fname").value;
+
+text = "Hey"+ x +"!";
+alert(text);
+
+}
