@@ -18,9 +18,9 @@ document.getElementById("myimage").src= pic;
 function display(){
     var x, text ;
     
-x = document.getElementById("fname").value;
+x = document.getElementById("fnamn").value;
 
-text = "Hey"+ x +"!";
+text = "Hey "+ x +"!";
 alert(text);
 
 }
