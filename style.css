@@ -1,4 +1,4 @@
-body{
+.body1{
 
     /*background-image: url(Lil_Zilon-Profile-picture.png);*/
     background-image: url(bilder/genomskinlig-logga.png);
@@ -11,6 +11,19 @@ body{
     
    
 }
+.body2{
+background-color: limegreen;
+
+
+
+
+}
+
+
+
+
+
+
 
 h1{
    font-family:  Verdana; 
@@ -76,3 +89,27 @@ ul {
     background-color: rgb(51, 51, 51);
     color: cyan;
   }
+        /* Data bildskärm*/
+  @media only screen and (min-width: 1024px){
+    .body1{
+        grid-template-columns: 100px auto 360px ;
+    }
+    header{
+        grid-column: span 3;
+    }
+aside{
+    grid-column: 3;
+}
+
+  }
+
+        /* Mobilskärm*/
+  @media only screen and (max-width: 500px){
+    .body2{
+        grid-template-columns: 4;
+    }
+  }
+
+  
+
+  
