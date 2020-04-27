@@ -1,7 +1,7 @@
 .body1{
 
-    /*background-image: url(Lil_Zilon-Profile-picture.png);*/
-    background-image: url(bilder/genomskinlig-logga.png);
+    background-image: url(Lil_Zilon-Profile-picture.png);
+    /*background-image: url(bilder/genomskinlig-logga.png);*/
     background-color: #001;
     background-repeat: no-repeat;
     position: sticky;
@@ -18,20 +18,14 @@ background-color: limegreen;
 
 
 }
-
-
-
-
-
-
-
-h1{
-   font-family:  Verdana; 
-   font-size: 40px;
-   color: rgb(179, 255, 27);
-    ;
-
+.sec1{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom right, magenta, cyan);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
 }
+
 h2{
     font-family: Arial;
     color: magenta;
@@ -55,19 +49,12 @@ p{
     display: inline;
 
 }
-.cyan{
-    color: cyan;
-    ;
-}
+
 a
 {
 color: magenta
 }
-video{
-    position: relative;
-    left: 200px   ;
 
-}
 ul {
     list-style-type: none;
     margin: 0;
@@ -76,13 +63,18 @@ ul {
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
   }
-  
+  footer{
+      font-size: 10px;
+      color: white;
+      grid-row: 10;
+  }
   li a {
     display: block;
     color: magenta;
     padding: 8px 16px;
     text-decoration: none;
   }
+  
   
   /* Changes color when hovered */
   li a:hover {
@@ -92,10 +84,16 @@ ul {
         /* Data bildskärm*/
   @media only screen and (min-width: 1024px){
     .body1{
-        grid-template-columns: 100px auto 360px ;
+       display: grid;
+        grid-template-columns: auto auto 600px ;
     }
     header{
         grid-column: span 3;
+       
+    }
+    video{ 
+    position: relative;
+    left: 200px   ;
     }
 aside{
     grid-column: 3;
@@ -105,11 +103,7 @@ aside{
 
         /* Mobilskärm*/
   @media only screen and (max-width: 500px){
-    .body2{
-        grid-template-columns: 4;
-    }
+    video{
+  position: center;
   }
-
-  
-
-  
+  }
