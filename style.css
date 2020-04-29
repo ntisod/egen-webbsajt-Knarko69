@@ -11,8 +11,8 @@
     
    
 }
-.body2{
-background-color: limegreen;
+.indexsida{
+background-image: url(sot-sunset.jpg);
 
 
 
@@ -68,7 +68,7 @@ ul {
       color: white;
       grid-row: 10;
   }
-  li a {
+  .indexsida li a {
     display: block;
     color: magenta;
     padding: 8px 16px;
@@ -77,10 +77,21 @@ ul {
   
   
   /* Changes color when hovered */
-  li a:hover {
+  .indexsida li a:hover {
     background-color: rgb(51, 51, 51);
     color: cyan;
   }
+
+.social a{
+    font-family: 'Segoe UI', Helvetica;
+    text-decoration: none;
+    
+}
+
+
+
+
+
         /* Data bildskärm*/
   @media only screen and (min-width: 1024px){
     .body1{
@@ -106,4 +117,8 @@ aside{
     video{
   position: center;
   }
+  .navindex img{
+ left: 50px;
+
+}
   }
