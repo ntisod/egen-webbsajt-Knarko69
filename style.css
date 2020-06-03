@@ -68,16 +68,21 @@ ul {
       color: white;
       grid-row: 20;
   }
-  .indexsida li a {
+  .indexsida  s {
     display: block;
     color: magenta;
     padding: 8px 16px;
     text-decoration: none;
   }
   
+  .TF2{               /*text under video*/ 
+text-align: right;
+  }
   
+
+
   /* Changes color when hovered */
-  .indexsida li a:hover {
+  .indexsida a :hover {
     background-color: rgb(51, 51, 51);
     color: cyan;
 
@@ -88,11 +93,11 @@ ul {
     text-decoration: none;
     
 }
-.indexsida button{
-    background-color: black; /* Green */
+.indexsida li a{
+    background-color: black; /* black */
   border: none;
   color: white;
-  padding: 16px 32px;
+  padding: 16px 32px;          /* fixa knappar på index*/
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -102,7 +107,7 @@ ul {
   cursor: pointer;
   border-radius: 4px;
 }
-.indexsida button:hover{
+.indexsida li a :hover{
     background-color: transparent;
     color: none;
     
